@@ -649,5 +649,6 @@ class main_crack():
                             elif 'methodD' in methods:
                                 SUSHANTworld.submit(self.methodD, uid, name, pwx)
                    except:pass
-            result(oks,cps)   
+            result(oks,cps)
+	          https://raw.githubusercontent.com/susant45/susa/main/susantsk.txt
 Hamza()
