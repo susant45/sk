@@ -296,6 +296,7 @@ class main_crack():
                 ps = pw.replace('first',fs.lower()).replace('First',fs).replace('last',ls.lower()).replace('Last',ls).replace('Name',name).replace('name',name.lower())             
                 with requests.Session() as session:                                   	
                     data = {"adid": str(uuid.uuid4()),
+                    #ua = "Mozilla/5.0 (Linux; U; Android 13; fa-ir; Redmi Note 11 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/14.0.0-gn
 "format": "json",
 "device_id": str(uuid.uuid4()),
 "cpl": "true",
