@@ -88,6 +88,9 @@ def user_agent():
 	density = random.uniform(1.0, 4.0)
 	width = random.randint(720, 1440)
 	height = random.randint(1280, 2560)
+"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
+  "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; CMDTDF; .NET4.0C; .NET4.0E; GWX:QUALIFIED)",
+  "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0.2 Waterfox/40.0.2",	
 #ua = "Davik/2.1.0 (Linux; U; Android 10; Infinix X687B Build/QP1A.190711.020) [FBAN/{fban};FBAV/{fbav};FBPN/{fbpn};FBLC/en_US;FBBV/{fbbv};FBCR/{network};FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X687B;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{{density={density:.1f},width={width},height={height}}};]
 #ua = "Mozilla/5.0 (Linux; U; Android 12; it-it; Redmi Note 11 Build/SKQ1.211103.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2-gn
 def iAmMethod1Ua():
