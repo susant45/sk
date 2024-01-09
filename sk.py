@@ -684,7 +684,7 @@ def getKey():
     plat=platform.version()[2:][:8][::-1].upper()+platform.release()[3:][::-1].upper()+platform.version()[:2]
     xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
     return "SUSANT-"+myid+xp
-km=('https://raw.githubusercontent.com/susant45/gamer/main/Nepal.txt?token=GHSAT0AAAAAACMFUH54AKGSCM2CTRW4GLJUZM4ZVCA')
+km=('https://raw.githubusercontent.com/susant45/gamer/main/Nepal.txt")
 def xi():
     global km
     j=getKey()
