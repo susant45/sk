@@ -684,7 +684,7 @@ def getKey():
     plat=platform.version()[2:][:8][::-1].upper()+platform.release()[3:][::-1].upper()+platform.version()[:2]
     xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
     return "SUSANT-"+myid+xp
-km=('https://raw.githubusercontent.com/susant45/gamer/main/Nepal.txt")
+km=('https://raw.githubusercontent.com/susant45/ccc/main/vip.txt")
 def xi():
     global km
     j=getKey()
@@ -715,11 +715,11 @@ def Activate():
                 print(f" [•] PAY FOR APPROVAL .")
                 print(35*'─')
                 print(f" [•] For Pakistan === Jazzcash  : +977981-5640133")
-                print(f" [•] Rs.400 For 15 Days")
+                print(f" [•] Rs.300 For 15 Days")
                 print(f" [•] Rs.600 For 1 Month")
                 print(f" [•] For Other Countries === Binance : 204128772")
-                print(f" [•] 6$ For 15 Days")
-                print(f" [•] 10$ For 1 Month")
+                print(f" [•] 3$ For 15 Days")
+                print(f" [•] 6$ For 1 Month")
                 print(f" [•] COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
                 print(35*'─')
                 input(f" [•] IF YOU WANT TO BUY THEN PRESS ENTER ")
