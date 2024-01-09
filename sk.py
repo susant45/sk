@@ -88,8 +88,8 @@ def user_agent():
 	density = random.uniform(1.0, 4.0)
 	width = random.randint(720, 1440)
 	height = random.randint(1280, 2560)
-	ua = "Davik/2.1.0 (Linux; U; Android 10; Infinix X687B Build/QP1A.190711.020) [FBAN/{fban};FBAV/{fbav};FBPN/{fbpn};FBLC/en_US;FBBV/{fbbv};FBCR/{network};FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X687B;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{{density={density:.1f},width={width},height={height}}};]
-       #ua = "Mozilla/5.0 (Linux; U; Android 12; it-it; Redmi Note 11 Build/SKQ1.211103.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2-gn
+#ua = "Davik/2.1.0 (Linux; U; Android 10; Infinix X687B Build/QP1A.190711.020) [FBAN/{fban};FBAV/{fbav};FBPN/{fbpn};FBLC/en_US;FBBV/{fbbv};FBCR/{network};FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X687B;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{{density={density:.1f},width={width},height={height}}};]
+#ua = "Mozilla/5.0 (Linux; U; Android 12; it-it; Redmi Note 11 Build/SKQ1.211103.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2-gn
 def iAmMethod1Ua():
 	abc = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 	pkgs = random.choice(['com.facebook.katana','com.facebook.mlite','com.facebook.lite','com.facebook.adsmanager','com.facebook.liteh'])
