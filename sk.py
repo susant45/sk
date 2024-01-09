@@ -134,11 +134,11 @@ logo = (f'''\033[1;37m
 ███████║╚██████╔╝███████║██║  ██║██║ ╚████║   ██║   
 ╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝                                                                                                                                                                               																							  
 ---------------------------------------------------
- [•] \033[1;37mOwner:SUSHANT KAFLE
- [•] Github    :     SUSHANT KAFLE
- [•] Status    :       PAID TOOL
- [•] Tool      :        Public
- [•] Facebook  :     SUSHANT DAVIL
+ [•] \033[1;37mOwner: SUSHANT KAFLE
+ [•] Github    :  SUSHANT KAFLE
+ [•] Status    :  PAID TOOL
+ [•] Tool      :  Public
+ [•] Facebook  :  SUSHANT DAVIL
  [•] Version   :  \033[1;32m 0.8\033[1;32m \033[1;37m
 ---------------------------------------------------''')
 def clear():
@@ -187,7 +187,7 @@ def Hamza():
     print(f'[1] File Cloneing')
     print(f'[3] Create File ')    
     print(35*'─')
-    select = input('SELECT MENU : ')
+    select = input('choose option : ')
     if select =='1':
         method_crack()
     elif select =='2':
