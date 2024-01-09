@@ -124,20 +124,21 @@ Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}   
 logo = (f'''\033[1;37m      
 
-      WORKING FOR NEPAL,INDIA, PAKISTAN,
-               AFGHANISTAN,BANGLADESH	                                     
-.d88888b  dP     dP .d88888b   .d888888  888888ba  d888888P 
-88.    "' 88     88 88.    "' d8'    88  88    `8b    88    
-`Y88888b. 88     88 `Y88888b. 88aaaaa88a 88     88    88    
-      `8b 88     88       `8b 88     88  88     88    88    
-d8'   .8P Y8.   .8P d8'   .8P 88     88  88     88    88    
- Y88888P  `Y88888P'  Y88888P  88     88  dP     dP    dP                                                                                                                         																							  
+              WORKING FOR NEPAL,INDIA, PAKISTAN,
+ 	            AFGHANISTAN,BANGLADESH
+	
+███████╗██╗   ██╗███████╗ █████╗ ███╗   ██╗████████╗
+██╔════╝██║   ██║██╔════╝██╔══██╗████╗  ██║╚══██╔══╝
+███████╗██║   ██║███████╗███████║██╔██╗ ██║   ██║   
+╚════██║██║   ██║╚════██║██╔══██║██║╚██╗██║   ██║   
+███████║╚██████╔╝███████║██║  ██║██║ ╚████║   ██║   
+╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝                                                                                                                                                                               																							  
 ---------------------------------------------------
- [•] \033[1;37mOwner     :   SUSHANT KAFLE
- [•] Github    :   SUSHANT KAFLE
- [•] Status    :   Paid
- [•] Tool      :   Public
- [•] Facebook  :   SUSHANT DAVIL
+ [•] \033[1;37mOwner:SUSHANT KAFLE
+ [•] Github    :     SUSHANT KAFLE
+ [•] Status    :       PAID TOOL
+ [•] Tool      :        Public
+ [•] Facebook  :     SUSHANT DAVIL
  [•] Version   :  \033[1;32m 0.8\033[1;32m \033[1;37m
 ---------------------------------------------------''')
 def clear():
