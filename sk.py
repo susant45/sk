@@ -1145,6 +1145,7 @@ class main_crack():
                     #="pwv.append(frs+'@#')
                                        
                             
+                            pwx =  pw
                             if 'methodA' in methods:
                                 SUSHANTworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
