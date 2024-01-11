@@ -1105,7 +1105,7 @@ class main_crack():
                    try:
                        uid, name = zsb.split('|')
                        sz = name.split(' ')
-                            if len(sz) == 3 or len(sz) == 4 or len(sz) == 5 or len(sz) == 8:                                                                   
+                            if len(sz) == 3 or len(sz) == 4 or len(sz) == 5 or len(sz) ==                                                              
                             pwx =  pw
                             if 'methodA' in methods:
                                 SUSHANTworld.submit(self.methodA, uid, name, pwx)
