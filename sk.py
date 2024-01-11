@@ -1105,46 +1105,7 @@ class main_crack():
                    try:
                        uid, name = zsb.split('|')
                        sz = name.split(' ')
-                       if len(sz) == 3 or len(sz) == 4 or len(sz) == 5 or len(sz) == 8:
-                           pwx =  pw
-                       #pw="else:
-		   #pw = "if len(frs)<3:
-                   #pw = "pass
-                 #pw="else
-                    #="pwv.append(frs+'12')
-                    #="pwv.append(frs+'123')
-                    #="pwv.append(frs+'1234')
-                    #="pwv.append(frs+'12345')
-                    #="pwv.append(frs+'123456')
-                    #="pwv.append(nmf)
-                    #="pwv.append('57273200')
-                    #="pwv.append(frs+'@123')
-                    #="pwv.append(frs+'@')
-                    #="pwv.append(frs+'@@')
-                    #="pwv.append(frs+'@@@')
-                    #="pwv.append(frs+'@@@@')
-                    #="pwv.append(frs+'@#')
-                                  
-                             
-            #pw="else:
-                #pw="if len(frs)<3:
-                    #="pwv.append(nmf)
-                #pw="else:
-                    #="pwv.append(frs+'12')
-                    #="pwv.append(frs+'123')
-                    #="pwv.append(frs+'1234')
-                    #="pwv.append(frs+'12345')
-                    #="pwv.append(frs+'123456')
-                    #="pwv.append(nmf)
-                    #="pwv.append('57273200')
-                    #="pwv.append(frs+'@123')
-                    #="pwv.append(frs+'@')
-                    #="pwv.append(frs+'@@')
-                    #="pwv.append(frs+'@@@')
-                    #="pwv.append(frs+'@@@@')
-                    #="pwv.append(frs+'@#')
-                                       
-                            
+                            if len(sz) == 3 or len(sz) == 4 or len(sz) == 5 or len(sz) == 8:                                                                   
                             pwx =  pw
                             if 'methodA' in methods:
                                 SUSHANTworld.submit(self.methodA, uid, name, pwx)
